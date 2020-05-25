@@ -1,0 +1,21 @@
+{
+  "name": "postman_jenkins_integration",
+  "version": "1.0.0",
+  "description": "Postman collection testing",
+  "scripts": {
+    "api-test": "newman run postman_test.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabhakar2020/postman_jenkins_integration.git"
+  },
+  "author": "Prabhakar G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabhakar2020/postman_jenkins_integration/issues"
+  },
+  "homepage": "https://github.com/prabhakar2020/postman_jenkins_integration#readme",
+  "dependencies": {
+    "newman": "^5.0.1"
+  }
+}
